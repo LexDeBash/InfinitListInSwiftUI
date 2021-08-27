@@ -11,6 +11,7 @@
 		A889919D26D916AD0074B270 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A889919C26D916AD0074B270 /* ContentView.swift */; };
 		A889919F26D916AE0074B270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A889919E26D916AE0074B270 /* Assets.xcassets */; };
 		A88991A226D916AE0074B270 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A88991A126D916AE0074B270 /* Preview Assets.xcassets */; };
+		A88991AA26D9170B0074B270 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88991A926D9170B0074B270 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A889919C26D916AD0074B270 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A889919E26D916AE0074B270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A88991A126D916AE0074B270 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A88991A926D9170B0074B270 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		A889919926D916AD0074B270 /* InfinitListInSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A88991A826D916D30074B270 /* Models */,
 				A889919A26D916AD0074B270 /* InfinitListInSwiftUIApp.swift */,
 				A889919C26D916AD0074B270 /* ContentView.swift */,
 				A889919E26D916AE0074B270 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				A88991A126D916AE0074B270 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A88991A826D916D30074B270 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A88991A926D9170B0074B270 /* User.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				A889919D26D916AD0074B270 /* ContentView.swift in Sources */,
 				A889919B26D916AD0074B270 /* InfinitListInSwiftUIApp.swift in Sources */,
+				A88991AA26D9170B0074B270 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
