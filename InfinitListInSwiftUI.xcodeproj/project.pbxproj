@@ -15,6 +15,7 @@
 		A88991AE26D91B7C0074B270 /* UserRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88991AD26D91B7C0074B270 /* UserRow.swift */; };
 		A88991B126DBBD6F0074B270 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88991B026DBBD6F0074B270 /* NetworkManager.swift */; };
 		A88991B326DBC8770074B270 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88991B226DBC8770074B270 /* UserViewModel.swift */; };
+		A88991B526DBCAD10074B270 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88991B426DBCAD10074B270 /* LoaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		A88991AD26D91B7C0074B270 /* UserRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRow.swift; sourceTree = "<group>"; };
 		A88991B026DBBD6F0074B270 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		A88991B226DBC8770074B270 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		A88991B426DBCAD10074B270 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				A88991AD26D91B7C0074B270 /* UserRow.swift */,
+				A88991B426DBCAD10074B270 /* LoaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				A889919D26D916AD0074B270 /* ContentView.swift in Sources */,
 				A88991B326DBC8770074B270 /* UserViewModel.swift in Sources */,
 				A889919B26D916AD0074B270 /* InfinitListInSwiftUIApp.swift in Sources */,
+				A88991B526DBCAD10074B270 /* LoaderView.swift in Sources */,
 				A88991B126DBBD6F0074B270 /* NetworkManager.swift in Sources */,
 				A88991AA26D9170B0074B270 /* User.swift in Sources */,
 				A88991AE26D91B7C0074B270 /* UserRow.swift in Sources */,
