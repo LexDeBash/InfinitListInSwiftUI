@@ -12,17 +12,15 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            List {
-                ForEach(userViewModel.users, id: \.id) { user in
-                    UserRow(user: user)
-                }
-                LoaderView(isFailed: userViewModel.isRequestFailed)
-                    .onAppear(perform: fetchData)
-                    .onTapGesture(perform: onTapLoadView)
+            List(userViewModel.users) { user in
+                UserRow(user: user)
             }
-            .navigationTitle("GitHub Users")
-            .navigationBarTitleDisplayMode(.automatic)
+            LoaderView(isFailed: userViewModel.isRequestFailed)
+                .onAppear(perform: fetchData)
+                .onTapGesture(perform: onTapLoadView)
         }
+        .navigationTitle("GitHub Users")
+        .navigationBarTitleDisplayMode(.automatic)
     }
     
     private func fetchData() {

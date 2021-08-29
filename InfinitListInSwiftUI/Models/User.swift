@@ -5,7 +5,7 @@
 //  Created by Alexey Efimov on 27.08.2021.
 //
 
-struct User: Decodable {
+struct User: Decodable, Identifiable {
     let id: Int
     let name: String
     let avatarURL: String
