@@ -11,10 +11,13 @@ struct UserRow: View {
     let user: User
     var body: some View {
         HStack (spacing: 12) {
-            Image("imagePlaceholder")
-                .resizable()
-                .frame(width: 50, height: 50)
-                .clipShape(Circle())
+            AsyncImage(url: URL(string: user.avatarURL)) { image in
+                image.resizable()
+            } placeholder: {
+                Color.white
+            }
+            .frame(width: 50, height: 50)
+            .clipShape(Circle())
             Text(user.name)
         }
     }
@@ -25,7 +28,7 @@ struct UserRow_Previews: PreviewProvider {
         UserRow(user: User(
             id: 1,
             name: "Tim Cook",
-            avatarURL: "")
-        )
+            avatarURL: "https://avatars.githubusercontent.com/u/1?v=4"
+        ))
     }
 }
