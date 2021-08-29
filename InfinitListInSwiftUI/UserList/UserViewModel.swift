@@ -8,7 +8,7 @@
 import Combine
 import Foundation
 
-class UserViewModel {
+class UserViewModel: ObservableObject {
     @Published var users: [User] = []
     @Published var isRequestFailed = false
     

@@ -61,11 +61,10 @@
 		A889919926D916AD0074B270 /* InfinitListInSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				A88991AF26DBBD540074B270 /* Services */,
-				A88991AB26D91B2E0074B270 /* UserList */,
-				A88991A826D916D30074B270 /* Models */,
 				A889919A26D916AD0074B270 /* InfinitListInSwiftUIApp.swift */,
-				A889919C26D916AD0074B270 /* ContentView.swift */,
+				A88991AB26D91B2E0074B270 /* UserList */,
+				A88991AF26DBBD540074B270 /* Services */,
+				A88991A826D916D30074B270 /* Models */,
 				A889919E26D916AE0074B270 /* Assets.xcassets */,
 				A88991A026D916AE0074B270 /* Preview Content */,
 			);
@@ -100,6 +99,7 @@
 		A88991AC26D91B650074B270 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A889919C26D916AD0074B270 /* ContentView.swift */,
 				A88991AD26D91B7C0074B270 /* UserRow.swift */,
 				A88991B426DBCAD10074B270 /* LoaderView.swift */,
 			);
